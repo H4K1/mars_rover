@@ -32,7 +32,7 @@ def content(data)
   data.each do |photos|
     photos[1].each do |array|
         img += "
-        <div class= 'col-sm-12 col-md-4 text-center foto'>
+        <div class= 'col-xs-12 col-lg-4 text-center foto'>
             <h2 class='h3 p-2'>#{array['camera']['full_name']} <br> <span class='h5 font-weigth-lighter'>(#{array['camera']['name']})</span></h2>
             <a href='#{array['img_src']}' target='_blank'><img width='200px' src='#{array['img_src']}' alt=''></a>
             <p>#{array['earth_date']}</p>
