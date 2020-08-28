@@ -13,17 +13,17 @@ def head
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="./assets/css/style.css" media="all">
     <title>Nasa</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand text-white font-weigth-bolder" href="#"><i class="fas fa-rocket text-white fa-1x"></i>  WILBER</a>
+        <a class="navbar-brand text-white font-weigth-bolder" href="https://www.github.com/h4k1" target="_blank"><img src="./assets/img/NASA-Logo.png" width="75px" alt=""></i>WILBER</a>
         <a href="https://github.com/h4k1" target="_blank"><i class="fab fa-github-square text-white fa-3x"></i></a>
       </div>
     </nav>
-    <h1 class="display-1 font-weigth-bolder p-5 ">Mars Rover Curiosity</h1>
+    <h1 class="display-1 font-weigth-bolder p-5 m-3">Mars Rover Curiosity</h1>
   '
 end
 
