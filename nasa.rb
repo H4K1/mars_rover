@@ -17,7 +17,7 @@ def head
     <title>Nasa</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand text-white font-weigth-bolder" href="https://www.github.com/h4k1" target="_blank"><img class="logo"src="./assets/img/NASA-Logo.png" width="75px" alt=""></i>WILBER</a>
         <a href="https://github.com/h4k1" target="_blank"><i class="fab fa-github-square text-white fa-3x"></i></a>
@@ -28,7 +28,7 @@ def head
 end
 
 def content(data)
-  img = "<div class='row container-lg m-auto'>" 
+  img = "<div class='row container-fluid m-auto'>" 
   data.each do |photos|
     photos[1].each do |array|
         img += "
