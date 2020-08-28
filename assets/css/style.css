@@ -50,4 +50,25 @@ nav a:hover{
 		width:400px;
 	}
 
+	.foto{
+		transition: none;
+	}
+
+
+
+
+	.foto:hover{
+		transform: none;
+	}
+
+
+	nav a{
+		transition: none; 
+	}
+
+	nav a:hover{
+		transform: none;
+	}
+
+
 }
