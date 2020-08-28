@@ -19,7 +19,7 @@ def head
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand text-white font-weigth-bolder" href="https://www.github.com/h4k1" target="_blank"><img src="./assets/img/NASA-Logo.png" width="75px" alt=""></i>WILBER</a>
+        <a class="navbar-brand text-white font-weigth-bolder" href="https://www.github.com/h4k1" target="_blank"><img class="logo"src="./assets/img/NASA-Logo.png" width="75px" alt=""></i>WILBER</a>
         <a href="https://github.com/h4k1" target="_blank"><i class="fab fa-github-square text-white fa-3x"></i></a>
       </div>
     </nav>
@@ -28,13 +28,13 @@ def head
 end
 
 def content(data)
-  img = "<div class='row container m-auto'>" 
+  img = "<div class='row container-lg m-auto'>" 
   data.each do |photos|
     photos[1].each do |array|
         img += "
         <div class= 'col-xs-12 col-sm-12 col-md-12 col-lg-4 text-center foto'>
             <h2 class='h3 p-2'>#{array['camera']['full_name']} <br> <span class='h5 font-weigth-lighter'>(#{array['camera']['name']})</span></h2>
-            <a href='#{array['img_src']}' target='_blank'><img width='200px' src='#{array['img_src']}' alt=''></a>
+            <a href='#{array['img_src']}' target='_blank'><img src='#{array['img_src']}' alt=''></a>
             <p>#{array['earth_date']}</p>
         </div>
         "
