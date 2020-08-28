@@ -1,0 +1,30 @@
+body{
+	background:url(./wallpaper.jpg);
+	color:white;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+}
+
+body > div{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body div > div{
+	padding: 10px;
+}
+
+.foto{
+	transition: transform 0.5s;
+}
+
+
+
+
+.foto:hover{
+	transform: scale(1.2);
+}
